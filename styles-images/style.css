@@ -1,0 +1,151 @@
+
+.banner-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightskyblue;
+}
+
+
+.banner-malev-kep{
+    width: 100%;
+}
+
+.tablink {
+    background-color: lightskyblue;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 12px;
+    width: 25%;
+    font-weight: 500;
+}
+  
+.tablink:hover {
+    background-color: lightgrey;
+}
+  
+.tabcontenta {
+    color: black;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    background-image: url("banner2.jpg");
+    background-position: 50%;
+ 
+}
+.tabcontenta h1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+  
+#Open{
+    background-color:white;
+}
+
+.tabcontent {
+    margin-top: 25px;
+    color: black;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tabcontent h1{
+    font-size: 20px;
+}
+
+.jegyrend{
+    background: none;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+}
+
+#ar{
+    margin-left: 4  0px;
+}
+.container {
+    display: flex;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#eler{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    text-align: center;
+    margin-left: -10px;
+  }
+  
+th, td {
+    text-align: center;
+    padding: 12px;
+    text-overflow: clip;
+  }
+  
+th:first-child, td:first-child {
+    text-align: left;
+  }
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+  
+.fa-check {
+    color: green;
+  }
+  
+.fa-remove {
+    color: red;
+  }
+
+.transfer {
+    font-size: 13px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 765px){
+    .tablink {
+        background-color: lightskyblue;
+        color: black;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 15px;
+        width: 25%;
+        font-weight: 200px;    
+
+    }
+
+    .jegyrend{
+        background: none;
+        border: none;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        font-weight: 500;
+    }
+}
