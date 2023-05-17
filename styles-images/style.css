@@ -64,6 +64,7 @@
     text-align: center;
     width: 100%;
     font-weight: 500;
+    vertical-align: center;
 }
 
 #ar{
@@ -119,9 +120,18 @@ tr:nth-child(even) {
 }
 
 
+.szabnav{
+    margin-left: 20px;
+}
 
+.szabalyok{
+    font-size: 20px;
+    text-align: justify;
+}
 
-
+.szabalyok li{
+    padding: 5px;
+}
 
 
 
@@ -147,5 +157,6 @@ tr:nth-child(even) {
         text-align: center;
         width: 100%;
         font-weight: 500;
+        vertical-align: center;
     }
 }
